@@ -1,4 +1,4 @@
-package com.leetcode.algorithms;
+package com.leetcode.algorithms.editDistance;
 
 import java.util.Arrays;
 

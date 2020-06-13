@@ -1,4 +1,4 @@
-package com.leetcode.algorithms;
+package com.leetcode.algorithms.stringCompression;
 
 /**
  * Problem #443 - Leetcode

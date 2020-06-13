@@ -1,4 +1,4 @@
-package com.leetcode.algorithms;
+package com.leetcode.algorithms.editDistance;
 
 public class EditDistanceRec {
     String word1, word2;
