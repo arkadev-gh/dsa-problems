@@ -3,7 +3,7 @@ package com.leetcode.algorithms.minRemoveParen;
 import java.util.ArrayDeque;
 import java.util.Deque;
 
-public class MinRemoveParantheses {
+public class MinRemoveParentheses {
     public String minRemoveToMakeValid(String s) {
         Deque<Integer> stack = new ArrayDeque<>();
         StringBuilder result = new StringBuilder();
