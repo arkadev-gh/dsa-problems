@@ -25,7 +25,7 @@ class BinaryTree {
      */
     Node root;
 
-    // Nested inner class to represent a node
+    // Nested static class to represent a node
     static class Node {
         int data;
         Node left, right;
