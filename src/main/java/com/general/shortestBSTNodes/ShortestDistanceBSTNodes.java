@@ -1,4 +1,4 @@
-package com.general;
+package com.general.shortestBSTNodes;
 
 public class ShortestDistanceBSTNodes {
 
