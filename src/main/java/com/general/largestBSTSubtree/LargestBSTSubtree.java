@@ -70,15 +70,15 @@ class BinaryTree {
         // Geeks for geeks has a bug with their java backend for static variables
         // Redundant reassignment of maxSize solves this problem
         maxBstSize = 0;
-        findLargestBST(root);
+        findLargestBst(root);
         return maxBstSize;
     }
 
-    private static NodeInfo findLargestBST(Node root) {
+    private static NodeInfo findLargestBst(Node root) {
         if (root == null) return new NodeInfo(0, 0, EMPTY_TREE_SIZE);
 
-        NodeInfo left = findLargestBST(root.left);
-        NodeInfo right = findLargestBST(root.right);
+        NodeInfo left = findLargestBst(root.left);
+        NodeInfo right = findLargestBst(root.right);
         NodeInfo current = new NodeInfo();
 
         // If maximum from left subtree is lesser than root OR the left subtree is empty then that's a BST
